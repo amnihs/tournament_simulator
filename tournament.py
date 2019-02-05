@@ -4,7 +4,7 @@ import pandas as pd
 from pandas import Series, DataFrame
 pd.set_option("display.max_rows", 101)
 
-# name, score, given_point, entry_round,rate
+# name, score, given_point, entry_round, winning_count
 kohshien_df = pd.read_csv('tournament.csv', encoding="shift-jis")
 
 def attack_rank(point):
